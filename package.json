@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/array-compare.js",
   "umd:main": "dist/array-compare.umd.js",
   "module": "dist/array-compare.m.js",
