@@ -1,0 +1,39 @@
+{
+  "name": "@nju33/array-compare",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.0",
+  "main": "dist/array-compare.js",
+  "umd:main": "dist/array-compare.umd.js",
+  "module": "dist/array-compare.m.js",
+  "types": "dist/index.d.ts",
+  "source": "src/array-compare.ts",
+  "repository": "git@github.com:nju33/array-diff.git",
+  "author": "nju33 <nju33.ki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "microbundle",
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "array",
+    "compare"
+  ],
+  "devDependencies": {
+    "@geekcojp/prettier-config": "^0.2.2",
+    "@geekcojp/tslint-config": "^0.2.1",
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "microbundle": "^0.6.0",
+    "prettier": "^1.14.2",
+    "ts-jest": "^23.1.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  }
+}
